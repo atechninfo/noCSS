@@ -4,7 +4,6 @@
  * Github: http://github.com/atechninfo/
  * Source Code: https://github.com/atechninfo/noCSS
  */
-
 .-oflw {
 overflow:hidden!important
 }
@@ -292,4 +291,12 @@ height:100%!important
 .-s {
 width:0!important;
 height:0!important
+}
+
+.mx-z {
+z-index: 500!important
+}
+
+.-z {
+z-index: -1!important
 }
