@@ -1,0 +1,52 @@
+/*
+ * nocss v1 --social-media-colors css
+ * By @atechninfo
+ * Github: http://github.com/atechninfo/
+ * Source Code: https://github.com/atechninfo/noCSS
+ */
+       .media[href*="facebook.com"], .media-hover[href*="facebook.com"]:hover {
+        background-color: #1565c0 !important;
+        color: #eee !important;
+      }
+      .media[href*="plus.google.com"], .media-hover[href*="plus.google.com"]:hover {
+        background-color: #d32f2f !important;
+        color: #eee !important;
+      }
+      .media[href*="twitter.com"], .media-hover[href*="twitter.com"]:hover {
+        background-color: rgb(67, 188, 235) !important;
+        color: #eee !important;
+      }
+      .media[href*="linkedin.com"], .media-hover[href*="linkedin.com"]:hover {
+        background-color: rgb(36, 116, 189) !important;
+        color: #eee !important;
+      }
+      .media[href*="youtube.com"], .media-hover[href*="youtube.com"]:hover {
+        background-color: rgb(233, 26, 33) !important;
+        color: #eee !important;
+      }
+      .media[href*="instagram.com"], .media-hover[href*="instagram.com"]:hover {
+        background: #f09433 !important; 
+        background: linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%) !important; 
+        background: -moz-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%) !important; 
+        background: -webkit-linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%) !important; 
+        background: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%) !important; 
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f09433', endColorstr='#bc1888',GradientType=1 ) !important;
+        color: #eee !important;
+      }
+      .media[href*="skype.com"], .media-hover[href*="skype.com"]:hover {
+        background-color: rgb(49, 197, 237) !important;
+        color: #eee !important;
+      }
+      .media[href*="pinterest.com"], .media-hover[href*="pinterest.com"]:hover {
+        background-color: rgb(228, 43, 51) !important;
+        color: #eee !important;
+      }
+      .media[href*="whatsapp.com"], .media-hover[href*="whatsapp.com"]:hover {
+        background-color: rgb(228, 43, 51) !important;
+        color: #eee !important;
+      }
+      .media[href*="snapchat.com"], .media-hover[href*="snapchat.com"]:hover {
+        background-color: rgb(246, 229, 27) !important;
+        color: #333 !important;
+      }
+    
