@@ -1,161 +1,191 @@
-      /* إظافات */
-      .hide-overflow {
+/*
+ * materialize RTL v1
+ * By @atechninfo
+ * Github: http://github.com/atechninfo/
+ * Source Code: https://github.com/atechninfo/materialize-rtl
+ */
+.-oflw {
         overflow: hidden !important;
       }
-      .hide-overflow-x {
+      .-oflw-x {
         overflow-x: hidden !important;
       }
-      .hide-overflow-y {
+      .-oflw-y {
         overflow-y: hidden !important;
       }
-      .visible-overflow {
+      .oflw {
         overflow: visible !important;
       }
-      .visible-overflow-x {
+      .oflw-x {
         overflow-x: visible !important;
       }
-      .visible-overflow-y {
+      .oflw-y {
         overflow-y: visible !important;
       }
-      .auto-overflow {
+      .auto-oflw {
         overflow: auto !important;
       }
-      .auto-overflow-x {
+      .auto-oflw-x {
         overflow-x: auto !important;
       }
-      .auto-overflow-y {
+      .auto-oflw-y {
         overflow-y: auto !important;
       }
-      .box-padding{
-        padding: 2px !important;
-      }
-      .padding {
+      .pdn {
         padding: 10px !important;
       }
-      .nopadding {
+      .-pdn {
         padding: 0px !important;
       }
-      .nopadding-top {
+      .-pdn-top {
         padding-top: 0px !important;
       }
-      .padding-top {
+      .pdn-top {
         padding-top: 10px !important;
       }
-      .nopadding-bottom {
+      .-pdn-btm {
         padding-bottom: 0px !important;
       }
-      .padding-bottom {
+      .pdn-btm {
         padding-top: 10px !important;
       }
-      .nopadding-right {
+      .-pdn-right {
         padding-right: 0px !important;
       }
-      .padding-right {
+      .pdn-right {
         padding-top: 10px !important;
       }
-      .nopadding-left {
+      .-pdn-left {
         padding-left: 0px !important;
       }
-      .padding-left {
+      .pdn-left {
         padding-top: 10px !important;
       }
-      .nofloat {
+      .bx-pdn {
+        padding: 2px !important;
+      }
+      .-flt {
         float: none !important;
       }
-      .box-margin {
+      .auto-mrgn {
+        margin: auto !important;
+      }
+      .auto-mrgn-top {
+        margin-top: auto !important;
+      }
+      .auto-mrgn-btm {
+        margin-bottom: auto !important;
+      }
+      .auto-mrgn-right {
+        margin-right: auto !important;
+      }
+      .auto-mrgn-left {
+        margin-left: auto !important;
+      }
+
+      .bx-mrgn {
         margin: 2px !important;
       }
-      .margin {
+      .mrgn {
         margin: 10px !important;
       }
-      .nomargin {
-        margin: 0px !important;
+      .-mrgn {
+        margin: 0 !important;
       }
-      .nomargin-top {
+      .-mrgn-top {
         margin-top: 0px !important;
       }
-      .margin-top {
-        margin-left: 10px !important;
+      .mrgn-top {
+        margin-top: 10px !important;
       }
-      .nomargin-bottom {
+      .-mrgn-btm {
         margin-bottom: 0px !important;
       }
-      .margin-bottom {
-        margin-left: 10px !important;
+      .mrgn-btm {
+        margin-bottom: 10px !important;
       }
-      .nomargin-right {
+      .-mrgn-right {
         margin-right: 0px !important;
       }
-      .margin-right {
-        margin-left: 10px !important;
+      .mrgn-right {
+        margin-right: 10px !important;
       }
-      .nomargin-left {
+      .-mrgn-left {
         margin-left: 0px !important;
       }
-      .margin-left {
+      .mrgn-left {
         margin-left: 10px !important;
       }
       .auto-margin {
         margin: auto !important;
       }
-      .noborder {
+      .-border {
         border: none !important;
       }
-      .noborder-radius {
+      .-br {
         border-radius: 0 !important;
       }
-      .nobackground {
+      .-br {
+        border-radius: 2px !important;
+      }
+      .-bg {
         background: none !important;
       }
-      .nobackground-image {
+      .-bg-img {
         background-image: none !important;
       }
-      .nodisplay {
+      .-dsply,.hide {
         display: none !important;
       }
-      .hidden {
+      .dsply,.show {
+        display: block !important;
+      }
+      .v-hide {
         visibility: hidden !important;
       }
-      .visible {
+      .v-show {
         visibility: visible !important;
       }
-      .noopacity {
+      .opcty {
+        opacity: 1 !important;
+      }
+      .-opcty {
         opacity: 0 !important;
       }
-      .absolute{
+      .p-abs{
         position: absolute !important;
       }
-      .fixed {
+      .p-fxd {
         position: fixed !important;
       }
-      .relative {
+      .p-rltv {
         position: relative !important;
       }
-      .static {
+      .p-stc {
         position: static !important;
       }
       .-top {
         top: 0 !important;
       }
-      .full-top {
+      .fl-top {
         top: 100% !important;
       }
-      .-bottom {
+      .-btm {
         bottom: 0 !important;
       }
-      .full-bottom {
+      .mx-btm {
         bottom: 100% !important;
       }
       .-right {
         right: 0 !important;
       }
-      .full-right {
+      .mx-right {
         right: 100% !important;
       }
       .-left {
         left: 0 !important;
       }
-      .full-left {
+      .mx-left {
         left: 100% !important;
       }
       .-all {
@@ -164,7 +194,7 @@
         right: 0 !important;
         left: 0 !important;
       }
-      .full-all {
+      .mx-all {
         top: 100% !important;
         bottom: 100% !important;
         right: 100% !important;
