@@ -1,0 +1,172 @@
+      /* إظافات */
+      .hide-overflow {
+        overflow: hidden !important;
+      }
+      .hide-overflow-x {
+        overflow-x: hidden !important;
+      }
+      .hide-overflow-y {
+        overflow-y: hidden !important;
+      }
+      .visible-overflow {
+        overflow: visible !important;
+      }
+      .visible-overflow-x {
+        overflow-x: visible !important;
+      }
+      .visible-overflow-y {
+        overflow-y: visible !important;
+      }
+      .auto-overflow {
+        overflow: auto !important;
+      }
+      .auto-overflow-x {
+        overflow-x: auto !important;
+      }
+      .auto-overflow-y {
+        overflow-y: auto !important;
+      }
+      .box-padding{
+        padding: 2px !important;
+      }
+      .padding {
+        padding: 10px !important;
+      }
+      .nopadding {
+        padding: 0px !important;
+      }
+      .nopadding-top {
+        padding-top: 0px !important;
+      }
+      .padding-top {
+        padding-top: 10px !important;
+      }
+      .nopadding-bottom {
+        padding-bottom: 0px !important;
+      }
+      .padding-bottom {
+        padding-top: 10px !important;
+      }
+      .nopadding-right {
+        padding-right: 0px !important;
+      }
+      .padding-right {
+        padding-top: 10px !important;
+      }
+      .nopadding-left {
+        padding-left: 0px !important;
+      }
+      .padding-left {
+        padding-top: 10px !important;
+      }
+      .nofloat {
+        float: none !important;
+      }
+      .box-margin {
+        margin: 2px !important;
+      }
+      .margin {
+        margin: 10px !important;
+      }
+      .nomargin {
+        margin: 0px !important;
+      }
+      .nomargin-top {
+        margin-top: 0px !important;
+      }
+      .margin-top {
+        margin-left: 10px !important;
+      }
+      .nomargin-bottom {
+        margin-bottom: 0px !important;
+      }
+      .margin-bottom {
+        margin-left: 10px !important;
+      }
+      .nomargin-right {
+        margin-right: 0px !important;
+      }
+      .margin-right {
+        margin-left: 10px !important;
+      }
+      .nomargin-left {
+        margin-left: 0px !important;
+      }
+      .margin-left {
+        margin-left: 10px !important;
+      }
+      .auto-margin {
+        margin: auto !important;
+      }
+      .noborder {
+        border: none !important;
+      }
+      .noborder-radius {
+        border-radius: 0 !important;
+      }
+      .nobackground {
+        background: none !important;
+      }
+      .nobackground-image {
+        background-image: none !important;
+      }
+      .nodisplay {
+        display: none !important;
+      }
+      .hidden {
+        visibility: hidden !important;
+      }
+      .visible {
+        visibility: visible !important;
+      }
+      .noopacity {
+        opacity: 0 !important;
+      }
+      .absolute{
+        position: absolute !important;
+      }
+      .fixed {
+        position: fixed !important;
+      }
+      .relative {
+        position: relative !important;
+      }
+      .static {
+        position: static !important;
+      }
+      .-top {
+        top: 0 !important;
+      }
+      .full-top {
+        top: 100% !important;
+      }
+      .-bottom {
+        bottom: 0 !important;
+      }
+      .full-bottom {
+        bottom: 100% !important;
+      }
+      .-right {
+        right: 0 !important;
+      }
+      .full-right {
+        right: 100% !important;
+      }
+      .-left {
+        left: 0 !important;
+      }
+      .full-left {
+        left: 100% !important;
+      }
+      .-all {
+        top: 0 !important;
+        bottom: 0 !important;
+        right: 0 !important;
+        left: 0 !important;
+      }
+      .full-all {
+        top: 100% !important;
+        bottom: 100% !important;
+        right: 100% !important;
+        left: 100 !important;
+      }
