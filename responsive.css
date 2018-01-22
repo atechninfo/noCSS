@@ -1,0 +1,26 @@
+/*
+ * nocss v1 --responsive.css
+ * By @atechninfo
+ * Github: http://github.com/atechninfo/
+ * Source Code: https://github.com/atechninfo/noCSS
+ */
+ .responsive {
+    display: block;
+    margin: 0;
+    position: relative!important
+}
+
+.responsive .box {
+    width: 100%!important;
+    height: 100%!important;
+    position: absolute!important;
+    top: 0!important
+}
+
+.responsive,.responsive[data-fixed-size="16:4"] {
+    padding-top: 56.25%!important
+}
+
+.responsive[data-fixed-size="1:1"] {
+    padding-top: 100%!important
+}
