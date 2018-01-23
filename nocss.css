@@ -293,10 +293,19 @@ width:0!important;
 height:0!important
 }
 
+.s {
+width:40px!important;
+height:40px!important
+}
+
 .mx-z {
 z-index: 500!important
 }
 
 .-z {
 z-index: -1!important
+}
+
+.z {
+z-index: 1!important
 }
