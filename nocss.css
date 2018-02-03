@@ -4,6 +4,7 @@
  * Github: http://github.com/atechninfo/
  * Source Code: https://github.com/atechninfo/noCSS
  */
+ 
 .-oflw {
 overflow:hidden!important
 }
@@ -48,36 +49,36 @@ padding:10px!important
 padding:0!important
 }
 
-.-pdn-top {
+.-pdn-t {
 padding-top:0!important
 }
 
-.pdn-top {
+.pdn-t {
 padding-top:10px!important
 }
 
-.-pdn-btm {
+.-pdn-b {
 padding-bottom:0!important
 }
 
-.pdn-btm {
+.pdn-b {
 padding-bottom:10px !important;
 }
 
-.-pdn-right {
+.-pdn-r {
 padding-right:0!important
 }
 
-.pdn-right {
-padding-top:10px!important
+.pdn-r {
+padding-right:10px!important
 }
 
-.-pdn-left {
+.-pdn-l {
 padding-left:0!important
 }
 
-.pdn-left {
-padding-top:10px!important
+.pdn-l {
+padding-left:10px!important
 }
 
 .bx-pdn {
@@ -88,23 +89,31 @@ padding:2px!important
 float:none!important
 }
 
+.right {
+float:right!important
+}
+
+.left {
+float:left!important
+}
+
 .auto-mrgn {
 margin:auto!important
 }
 
-.auto-mrgn-top {
+.auto-mrgn-t {
 margin-top:auto!important
 }
 
-.auto-mrgn-btm {
+.auto-mrgn-b {
 margin-bottom:auto!important
 }
 
-.auto-mrgn-right {
+.auto-mrgn-r {
 margin-right:auto!important
 }
 
-.auto-mrgn-left {
+.auto-mrgn-l {
 margin-left:auto!important
 }
 
@@ -120,43 +129,39 @@ margin:10px!important
 margin:0!important
 }
 
-.-mrgn-top {
+.-mrgn-t {
 margin-top:0!important
 }
 
-.mrgn-top {
+.mrgn-t {
 margin-top:10px!important
 }
 
-.-mrgn-btm {
+.-mrgn-b {
 margin-bottom:0!important
 }
 
-.mrgn-btm {
+.mrgn-b {
 margin-bottom:10px!important
 }
 
-.-mrgn-right {
+.-mrgn-r {
 margin-right:0!important
 }
 
-.mrgn-right {
+.mrgn-r {
 margin-right:10px!important
 }
 
-.-mrgn-left {
+.-mrgn-l {
 margin-left:0!important
 }
 
-.mrgn-left {
+.mrgn-l {
 margin-left:10px!important
 }
 
-.auto-margin {
-margin:auto!important
-}
-
-.-border {
+.-brdr {
 border:none!important
 }
 
@@ -213,35 +218,51 @@ position:relative!important
 position:static!important
 }
 
-.-top {
+.-t {
 top:0!important
 }
 
-.fl-top {
+.t {
+top:10%!important
+}
+
+.mx-t {
 top:100%!important
 }
 
-.-btm {
+.-b {
 bottom:0!important
 }
 
-.mx-btm {
+.b {
+bottom:10%!important
+}
+
+.mx-b {
 bottom:100%!important
 }
 
-.-right {
+.-r {
 right:0!important
 }
 
-.mx-right {
+.r {
+right:10%!important
+}
+
+.mx-r {
 right:100%!important
 }
 
-.-left {
+.-l {
 left:0!important
 }
 
-.mx-left {
+.l {
+left:10%!important
+}
+
+.mx-l {
 left:100%!important
 }
 
@@ -252,6 +273,13 @@ right:0!important;
 left:0!important
 }
 
+.p {
+top:10%!important;
+bottom:10%!important;
+right:10%!important;
+left:10%!important
+}
+
 .mx-p {
 top:100%!important;
 bottom:100%!important;
@@ -259,27 +287,27 @@ right:100%!important;
 left:100%!important
 }
 
-.width {
+.w {
 width:40px!important
 }
 
-.height {
+.h {
 height:40px!important
 }
 
-.mx-width {
+.mx-w {
 width:100%!important
 }
 
-.mx-height {
+.mx-h {
 height:100%!important
 }
 
-.-width {
+.-w {
 width:0!important
 }
 
-.-height {
+.-h {
 height:0!important
 }
 
